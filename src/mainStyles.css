@@ -337,7 +337,6 @@ main {
         display: none;
     }
     
-    
     #nav-links {
         width: auto;
     }
@@ -355,6 +354,7 @@ main {
         grid-template-rows: auto auto;
     }
 
+/* ///////////////////////////////////// */
     
     #slide-pictures {
         height: 100%;
@@ -403,7 +403,6 @@ main {
         display: none;
     }
 
-
     #nav-links {
         width: auto;
     }
@@ -427,17 +426,13 @@ main {
         grid-column: span 2;
     }
     
-    .text-container {
-        grid-column: 2/ 4;
-    }
-
-    #shop-link {
-        align-self: end;
-    }
-    
     .text-slides {
         grid-row: 1;
         grid-column: 3 / 5;
+    }
+    
+    #shop-link {
+        align-self: end;
     }
 
     #slide-buttons {
@@ -445,11 +440,16 @@ main {
         grid-column: 3 / 4;
         align-self: end;
         justify-self: start;
-
+        
+    }
+    
+    .about-text {
+        grid-column: 2/ 4;
     }
 
     .about-pictures {
         grid-column: auto;
+        align-self: stretch;
     }
 
 }
